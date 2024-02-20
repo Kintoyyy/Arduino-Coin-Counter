@@ -4,6 +4,7 @@ This Arduino Coin Counter project utilizes commonly available components to crea
 
 ### Materials:
 
+- Coin Hopper with Sensor
 - Arduino Uno / ESP8266 / ESP32
 - LCD with I2C 20x4
 - 3 Push Buttons
