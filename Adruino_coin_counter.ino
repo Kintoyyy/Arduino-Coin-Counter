@@ -1,31 +1,3 @@
-# Arduino-Coin-Counter
-
-This Arduino Coin Counter project utilizes commonly available components to create a user-friendly coin counting system. By employing an Arduino Uno, ESP8266, or ESP32 micro controller, along with an LCD screen with I2C interface, three push buttons, a relay module, and resistors, you can efficiently count and manage coins. The system is designed to provide an intuitive interface for users to input and track their coin counts accurately. With clear instructions and easy-to-source materials, this project offers an accessible solution for hobbyists and enthusiasts interested in creating their own coin counting system.
-
-### Materials:
-
-- Coin Hopper with Sensor
-- Arduino Uno / ESP8266 / ESP32
-- LCD with I2C 20x4
-- 3 Push Buttons
-- Relay Module
-- 230 ohms Resistor
-- 6.8k ohms Resistor
-
-## Libraries
-- [LiquidCrystal_I2C](https://github.com/Jomelo/LCDMenuLib)
-- [ezButton](https://arduinogetstarted.com/tutorials/arduino-button-library)
-
-
-## Arduino Uno Schematics
-![Schematics](./img.png)
-
-## Project Images
-![1](./1.jpg)
-![2](./2.jpg)
-
-## Code
-```c++
 #include <LiquidCrystal_I2C.h>
 #include <ezButton.h>
 
@@ -241,5 +213,3 @@ void loop() {
   adjustLimit();
   handleStartClear();
 }
-```
-: )
